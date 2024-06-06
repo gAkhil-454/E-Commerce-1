@@ -1,0 +1,456 @@
+html{
+  padding: 0px;
+  margin:  0px;
+  color: #FBFCFD;
+}
+body{
+  padding: 0px;
+  margin: 0px;
+  background-color: #FBFCFD;
+  min-width: 410px;
+
+}
+
+header{
+  background-color: #212731;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+}
+  
+header .search{
+  display: flex;
+  position: relative;
+  width: 258px;
+  height: 37px;
+  top: 14px;
+  margin-left: 10%;
+  border-radius: 8px;
+  border: 1px;
+  background-color: white;
+}
+header img{
+  width: 26px;
+  height: 26px;
+  top: 5px;
+  left: 5px;
+  position: relative;
+}
+.menu{
+  display: flex;
+  gap: 50px;
+  position: relative;
+  margin-right: 5%;
+  top: 15%;
+}
+.menu p{
+  font-family: "Inter", sans-serif;
+  color: #D1D6DA;
+  font-size: 14px;
+  line-height: 20px;
+}
+.menubar{
+  position: relative;
+  top: 64px;
+  margin-left: 5%;
+  
+}
+.menubar h1{
+  position: relative;
+  font-size: 48px;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #2C384A;
+
+}
+.menubar .ruler{
+  position: relative;
+  top: 20px;
+  border: 1px solid  #E1E4E6;
+  
+}
+.menu1 .left{
+  position: relative;
+  top: 20px;
+  display: flex;
+  gap: 6px;
+  
+}
+.menu1 .right{
+  position: relative;
+  top: 20px;
+  display: flex;
+  gap: 6px;
+
+}
+.menu1{
+  display: flex;
+  justify-content: space-between;
+}
+.menu1 img{
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 15px;
+
+}
+.menu1 p{
+  font-family: "Inter";
+  color: #4B5665;
+}
+.menu2{
+  display: flex;
+  position: relative;
+  top: 25px;
+  gap: 10px;
+}
+.menu2items {
+  font-family: "Inter";
+  color: #4B5665;
+  height: 36px;
+  min-width: none;
+  background-color: white;
+  border-radius: 12px;
+  position: relative;
+  top: 10px;
+}
+.menu2items p{
+  font-size: 15px;
+  padding: 10px;
+  margin: 0px;
+}
+.menu3{
+  display: flex;
+  position: relative;
+  top: 35px;
+  gap: 15px;
+}
+.menu3items{
+  font-family: "Inter";
+  color: #4B5665;
+  position: relative;
+}
+  
+.infocard{
+  position: relative;
+  margin-left: 5%;
+  top: 120px;
+  gap: 2%;
+  border-radius: 12px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  color: #4B5665;
+  font-family: "Inter";
+  
+  margin-bottom: 25px;
+  line-height: 24px;
+}
+.infocard .left{
+  display: flex;
+  gap: 2%;
+}
+.cardimg{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cardimg img{
+  margin: 10px;
+}
+.info h4{
+margin: 5px 5px 5px 0px;
+}
+.info a{
+  color: #1B88F4;
+  text-decoration: none;
+}
+.info a img{
+  position: relative;
+  top: 3px;
+}
+.rating{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 2%;
+  position: relative;
+  
+  
+}
+.ratingbox{
+  background-color: #F3F9FF;
+  width: 135px;
+  height: 118px;
+  border-radius: 0px 0px 12px 12px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.ratingbox .infopic{
+  position: relative;
+  top: 5%;
+  left: 30%;
+  width: 11px;
+  height: 11px;  
+
+}
+.ratingbox h2{
+  padding: 0px;
+  margin: 0px;
+  font-size: 32px;
+  font-weight: 400;
+}
+.ratingbox p{
+  padding: 0px;
+  margin: 5px;
+
+}
+.view{
+  background-color:#1B88F4;
+  width: 232px;
+  height: 48px;
+  border-radius: 12px;
+  margin-bottom: 5%;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Inter";
+}
+.highlights{
+  background-color: #FFF4ED;
+  border-radius: 12px;
+  margin-left: 20px;
+}
+.highlights p{
+  padding: 8px;
+  margin: 0px;
+}
+.highlights span{
+  background-color: white;
+  padding: 4px;
+  border-radius: 4px;
+  margin: 10px;
+  color: #1B88F4;
+}
+.wwli p{
+  padding: 5px;
+  margin: 0px;
+  display: flex;
+  gap: 5px;
+}
+.wwli span{
+  font-weight: 500  ;
+  
+}
+.wwli img{
+  width: 24px;
+  height: 24px;
+}
+.deals{
+  color: #626E79;
+  position: relative;
+  margin-left: 7%;
+  top:150px
+}
+.deals h1{
+  font-family: "Inter";
+  font-size: 32px;
+  font-weight: 400;
+  color: #2C384A;
+  margin-left: 2%;
+}
+.dealcard{
+  color: #626E79;
+  background-color: white;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  font-family: "Inter";
+  padding: 10px 0px 10px 10px;
+  
+}
+.dealcard img{
+  width: 141px;
+  height: 103px;
+  margin-left: 28%;
+}
+.rates {
+  display: flex;
+  gap: 5px;
+}
+.rates .final{
+  color: #5C6874;
+  font-size: 20px;
+  margin: 0px;
+}
+.ori, .discount{
+margin-top: 5px;
+font-size: 14px;
+}
+.ori{
+  text-decoration:line-through
+}
+.discount{
+  color: red;
+}
+.dealcard span{
+  background-color: #F2F4F7;
+  color: #074786;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 13px;
+  margin: 5px 5px 5px 10px;
+  padding: 5px;
+  border-radius: 8px;
+}
+.dealcard p{
+  padding-left: 10px;
+}
+
+.dealbut{
+  background-color: #1B88F4;
+  width: 95%;
+  margin: 2px;
+  height: 48px;
+  border-radius: 12px;
+  color: white;
+}
+.dealslides{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.signup{
+  font-family: "Inter";
+  background-color: #e5e8eb;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 170px;
+  margin-left: 5%;
+  margin-right: 5%;
+  max-width: 1200px;
+  padding: 40px 10px 30px 10px;
+  border-radius: 12px;
+  min-width: 412px;
+
+}
+
+.cont{
+  font-size: 32px;
+  font-weight: 400;
+  color: #5C6874;
+  
+}
+.container{
+  display: flex;
+
+}
+.email{
+  width: 300px;
+  height: 52px;
+  border-radius: 12px 0px 0px 12px;
+  background-color: white;
+}
+.signbut{
+  color: white;
+  width: 97px;
+  height: 52px;
+  background-color: #1B88F4;
+  border-radius: 0px 12px 12px 0px;
+}
+footer{
+  background-color:#212731 ;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 250px;
+  font-family: "Inter";
+  height: 300px;
+}
+.footer h4{
+  font-weight: 400;
+  font-size: 16px;
+}
+.footer p{
+  font-size: 13px;
+  line-height: 20px;
+} 
+.country{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  
+}
+.country img{
+  width: 20px;
+}
+
+@media (max-width: 800px) {
+  .infocard, .dealslides, .signup{
+    flex-direction: column;
+  }
+  .signup{
+    gap: 20px;
+  }
+  .menu{
+    gap: 2%;
+  }
+  .menu2{
+    gap: 2px;
+
+  }
+  .menu2items p{
+    font-size: 12px;
+  }
+  .menu3{
+    gap:8px;
+  }
+  .menu3items{
+    font-size: 12px;
+  }
+  .signup .cont{
+    font-size: 20px;
+  }
+  .signup .email, .signup .signbut{
+    height: 30px;
+    font-size: 10px;
+  }
+  .signup{
+    min-width: 200px
+  }
+  .menu1 p{
+    font-size: 12px;
+  }
+  .menubar h1{
+    font-size: 28px;
+  }
+  .menu1 img{
+    width: 15px;
+    height: 15px;
+  }
+  .infocard{
+    font-size: 12px;
+  }
+  .dealcard{
+    font-size: 12px;
+  }
+  .deals h1{
+    font-size: 28px;
+  }
+  footer{
+    font-size: 12px;
+  }
+  .menu p{
+    font-size: 12px;
+  }
+}
+
