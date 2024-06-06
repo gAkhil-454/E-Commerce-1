@@ -42,7 +42,7 @@ function Slides(){
                             <p><img src={tick}  alt="h" /> Cool</p>
                             <p><img src={tick}  alt="h" /> Docs</p>
                         </div>
-                        <a href="abc.com"> show more<img  src={down} /></a>
+                        <a href="abc.com"> show more<img  src={down}  alt="h"/></a>
                     </div>
             </div>
             

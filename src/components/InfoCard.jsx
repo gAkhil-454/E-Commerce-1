@@ -1,6 +1,5 @@
 import React from "react";
 import cimg from "../assets/cardimg.svg";
-import webinfo from "../webinfo";
 import down from "../assets/bluedown.svg";
 import info from "../assets/info.svg";
 import rating from "../assets/rating.svg";
@@ -16,7 +15,7 @@ function InfoCard(props){
                 <p><b>{props.name}</b>- {props.des}</p>
                     <h4>Main Highlights</h4>
                     <p>[What you Get]:{props.wyg}</p>
-                    <a href="#"> show more<img  src={down} /></a>
+                    <a href="#"> show more<img  src={down}  alt="h"/></a>
                 </div>
             </div>
             
