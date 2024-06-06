@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/static/js/main.ade675b8.js",
+    "static/media/cardimg.svg": "/static/media/cardimg.11e955846dc4b8ab9c9d3e85b17dd8d9.svg",
+    "static/media/rating.svg": "/static/media/rating.115bb9a0227b91b12dc240f739adb146.svg",
+    "static/media/info.svg": "/static/media/info.5a725cac6219f641023ef1afcd2c8ceb.svg",
+    "static/media/checkbox.svg": "/static/media/checkbox.0525021777470a39c5cba656abb89f0f.svg",
+    "static/media/circletick.svg": "/static/media/circletick.467ad716b07e18b46c2be7796d2d1163.svg",
+    "static/media/search.svg": "/static/media/search.29a75431abdc9efae50f9579c9b79f70.svg",
+    "index.html": "/index.html",
+    "static/media/bluedown.svg": "/static/media/bluedown.c04830484c4a8bbb6d3755db423fbec5.svg",
+    "static/media/down.svg": "/static/media/down.be67eccf5d9b528ff7ca522ba699b690.svg",
+    "static/media/right.svg": "/static/media/right.dfdaf992870dff2292a69a3fc7825a3b.svg",
+    "main.ade675b8.js.map": "/static/js/main.ade675b8.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.ade675b8.js"
+  ]
+}
