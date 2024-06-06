@@ -9,7 +9,7 @@ function InfoCard(props){
         <div className="infocard">
             <div className="left">
                 <div className="cardimg">
-                    <img src={cimg} />
+                    <img src={cimg} alt="h"/>
                     <p>Builder 1</p>
                  </div>
                 <div className="info"> 
@@ -22,10 +22,10 @@ function InfoCard(props){
             
             <div className="rating">
                 <div className="ratingbox">
-                    <img src={info} className="infopic" />
+                    <img src={info} className="infopic" alt="h" />
                     <h2> {props.rating}</h2>
                     <p>{props.remark}</p>
-                    <img src={rating}  />
+                    <img src={rating}   alt="h"/>
                 </div>
                 <div className="view" >
                     <p> View </p>

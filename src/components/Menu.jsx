@@ -10,14 +10,14 @@ function Menu(){
             <div className="ruler"> </div>
             <div className="menu1">
                 <div className="left">
-                    <img src={check} />
+                    <img src={check}  alt="h" />
                     <p>  Last Updated - February 22, 2020 &ensp; &ensp;</p>
-                    <img src={info} />
+                    <img src={info}  alt="h" />
                     <p> Advertising Disclosure</p>
                 </div>
                 <div className="right">
                     <p>Top Relevant</p>  
-                    <img src={downarrow} />
+                    <img src={downarrow}   alt="h" />
                 </div>
                 
             </div> 
@@ -32,13 +32,13 @@ function Menu(){
             </div>
             <div className="menu3">
                 <div className="menu3items"><p>Home</p></div>
-                <img src={rightarrow} />
+                <img src={rightarrow}  alt="h" />
                 <div className="menu3items"><p>Hosting for all</p></div>
-                <img src={rightarrow} />
+                <img src={rightarrow}  alt="h" />
                 <div className="menu3items"><p>Hosting</p></div>
-                <img src={rightarrow} />
+                <img src={rightarrow}   alt="h"/>
                 <div className="menu3items"><p>Hosting6</p></div>
-                <img src={rightarrow} />
+                <img src={rightarrow}   alt="h"/>
                 <div className="menu3items"><p>Hosting5</p></div>
             </div>
 

@@ -21,7 +21,7 @@ function Footer(){
             </div>
             <div className="country">
                 <p>United States </p> 
-                <img src={downarrow} />
+                <img src={downarrow} alt="h" />
             </div>
 
         </footer>

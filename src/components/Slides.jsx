@@ -25,7 +25,7 @@ function Slides(){
            <div className="infocard">
             <div className="left">
                     <div className="cardimg">
-                        <img src={cimg} />
+                        <img src={cimg}  alt="h" />
                         <p>Builder 1</p>
                     </div>
                     <div className="info"> 
@@ -38,11 +38,11 @@ function Slides(){
                         </div>
                         <div className="wwli">
                             <p><span>Why we love it</span></p>
-                            <p><img src={tick} /> Building Responsive</p>
-                            <p><img src={tick} /> Cool</p>
-                            <p><img src={tick} /> Docs</p>
+                            <p><img src={tick}  alt="h" /> Building Responsive</p>
+                            <p><img src={tick}  alt="h" /> Cool</p>
+                            <p><img src={tick}  alt="h" /> Docs</p>
                         </div>
-                        <a href="#"> show more<img  src={down} /></a>
+                        <a href="abc.com"> show more<img  src={down} /></a>
                     </div>
             </div>
             
@@ -51,7 +51,7 @@ function Slides(){
                     <img src={info} className="infopic" />
                     <h2> 9.1</h2>
                     <p>Very Good</p>
-                    <img src={rating}  />
+                    <img src={rating}  alt="h"  />
                 </div>
                 <div className="view" >
                     <p> View </p>

@@ -5,7 +5,7 @@ function Header(){
     return (
             <header>
             <div className="search">
-                <img src={Search} />
+                <img src={Search}  alt="h" />
             </div>
 
             <div className="menu">
