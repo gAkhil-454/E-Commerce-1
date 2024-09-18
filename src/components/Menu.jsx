@@ -6,7 +6,7 @@ import rightarrow from "../assets/right.svg"
 function Menu(){
     return(
         <div className="menubar">
-            <h1>Best Website builders in the US</h1>
+            <h1>Best Website builders in the world</h1>
             <div className="ruler"> </div>
             <div className="menu1">
                 <div className="left">

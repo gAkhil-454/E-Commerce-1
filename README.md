@@ -1,5 +1,6 @@
-### WebSite photos
+## E-commerce platform offering product recommendations and a user-friendly signup process.
 
-![alt text](<src/assets/Screenshot 2024-06-06 115237.png>)
-![alt text](<src/assets/Screenshot 2024-06-06 115249.png>)
+![page](</my-app/src/assets/Screenshot 2024-09-18 181808.png>)
+
+
 
